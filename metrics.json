@@ -1,0 +1,10 @@
+{
+  "TESTING_EXAMPLE": {
+    "displayName": "Testing Example",
+    "displayNameShort": "Test Ex.",
+    "description": "",
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "defaultResolutionMS": 1000
+  }
+}
