@@ -2,7 +2,7 @@
 
 import petl as etl
 from datetime import datetime
-
+print("PULSE DATA")
 pulse_tab = (
     etl
     .fromcsv('measurements.csv')
@@ -13,6 +13,7 @@ pulse_tab = (
 )
 print(pulse_tab.lookall())
 
+print("PANAMA DATA")
 src_tab = (
     etl
     .fromjson('monitor.json', header=['timestamp', 'metric', 'source', 'measure'])
